@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+  --font: 'Host Grotesk', 'Arial', 'Helvetica';
+  --background-color: #23222D;
+  --darker-background-color: #131319;
+  --font-color: #F2F2F2;
+  --border-radius: 0.3rem;
+}

@@ -5,9 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="variables.css" />
   </head>
   <body>
-    <h1>HELLO WORLD!</h1>
+    <div class="header-wrapper">
+      <div class="image-wrapper">
+        <img id="image" src="images/image.jpg" alt="image of woman" />
+      </div>
+      <div class="heading-text">
+        <h1>Inger Mathilde Eiklund</h1>
+        <p>Front-end development student at Noroff University</p>
+        <div>
+          <ul>
+            <li><a href="files/CV.pdf" target="_blank">CV</a></li>
+            <li>
+              <a href="files/Cover-letter.pdf" target="_blank">
+                Cover letter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="project-cards">
+        <div class="card">
+          <div class="thumbnail-image-wrapper">
+            <img
+              class="thumbnail-image"
+              src="images/screenshot1.png"
+              alt="an image of a webpage"
+            />
+          </div>
+          <ul class="list">
+            <li class="card-header">Rainy days</li>
+            <li>
+              My first ever project using HTML and CSS. Learned everything from
+              HTML tags to CSS styling.
+            </li>
+            <li><a>Link to the project repository </a></li>
+            <li><a>Link to the live website link </a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="thumbnail-image-wrapper">
+            <img
+              class="thumbnail-image"
+              src="images/screenshot2.png"
+              alt="an image of a webpage"
+            />
+          </div>
+          <ul class="list">
+            <li class="card-header">Rainy days, JavaScript</li>
+            <li>
+              An iteration of the first project, using JavaScript. This
+              iteration made the website a functional ecommerce site.
+            </li>
+            <li><a>Link to the project repository </a></li>
+            <li><a>Link to the live website link </a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="thumbnail-image-wrapper">
+            <img
+              class="thumbnail-image"
+              src="images/screenshot3.png"
+              alt="an image of a webpage"
+            />
+          </div>
+          <ul class="list">
+            <li class="card-header">Semester Project</li>
+            <li>
+              The semester project I created with a classmate. Created only
+              using HTML and CSS, allowing us to perfect our existing skills.
+            </li>
+            <li><a>Link to the project repository </a></li>
+            <li><a>Link to the live website link </a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
   <script type="module" src="app.js"></script>
 </html>
