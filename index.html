@@ -8,85 +8,73 @@
     <link rel="stylesheet" href="variables.css" />
   </head>
   <body>
-    <div class="header-wrapper">
-      <div class="image-wrapper">
-        <img id="image" src="images/image.jpg" alt="image of woman" />
-      </div>
-      <div class="heading-text">
-        <h1>Inger Mathilde Eiklund</h1>
-        <p>Front-end development student at Noroff University</p>
-        <div>
-          <ul>
-            <li><a href="files/CV.pdf" target="_blank">CV</a></li>
-            <li>
-              <a href="files/Cover-letter.pdf" target="_blank">
-                Cover letter
-              </a>
-            </li>
-          </ul>
+    <div class="grid-container">
+      <aside class="sidebar">
+        <img class="sidebar-image" src="images/image.jpg" />
+        <div class="sidebar-text-container">
+          <p class="name-text">Inger Mathilde Eiklund</p>
+          <p>Studying front-end development at Noroff University</p>
+          <div class="icon-text-container">
+            <i class="fa-brands fa-github"></i
+            ><a
+              href="https://github.com/IngerMathildeEiklund"
+              target="_blank"
+              rel="noopener
+              noreferrer"
+            >
+              IngerMathildeEiklund</a
+            >
+          </div>
+          <div class="icon-text-container">
+            <i class="fa-regular fa-envelope"></i
+            ><a href="mailto:ingeik06345@stud.noroff.no">
+              ingeik06345@stud.noroff.no
+            </a>
+          </div>
+          <div class="icon-text-container">
+            <i class="fa-regular fa-file-lines"></i
+            ><a href="files/CV.pdf" target="_blank"> CV</a>
+          </div>
+          <div class="icon-text-container">
+            <i class="fa-regular fa-file-lines"></i
+            ><a href="files/Cover-letter.pdf" target="_blank"> Cover letter</a>
+          </div>
         </div>
-      </div>
+      </aside>
+      <main class="main-content">
+        <section class="card-section">
+          <h1>Portfolio</h1>
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="images/thumbnail-html-css.jpg" />
+            </div>
+            <p>Rainy Days - HTML and CSS</p>
+            <a href=""> Link to repo</a>
+            <a href=""> Link to Live demo</a>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="images/thumbnail-semester-project.jpg" />
+            </div>
+            <p>Rainy Days - HTML and CSS</p>
+            <a href=""> Link to repo</a>
+            <a href=""> Link to Live demo</a>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="images/thumbnail-javascript.jpg" />
+            </div>
+            <p>Rainy Days - HTML and CSS</p>
+            <a href=""> Link to repo</a>
+            <a href=""> Link to Live demo</a>
+          </div>
+        </section>
+      </main>
     </div>
-    <main>
-      <section class="project-cards">
-        <div class="card">
-          <div class="thumbnail-image-wrapper">
-            <img
-              class="thumbnail-image"
-              src="images/screenshot1.png"
-              alt="an image of a webpage"
-            />
-          </div>
-          <ul class="list">
-            <li class="card-header">Rainy days</li>
-            <li>
-              My first ever project using HTML and CSS. Learned everything from
-              HTML tags to CSS styling.
-            </li>
-            <li><a>Link to the project repository </a></li>
-            <li><a>Link to the live website link </a></li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <div class="thumbnail-image-wrapper">
-            <img
-              class="thumbnail-image"
-              src="images/screenshot2.png"
-              alt="an image of a webpage"
-            />
-          </div>
-          <ul class="list">
-            <li class="card-header">Rainy days, JavaScript</li>
-            <li>
-              An iteration of the first project, using JavaScript. This
-              iteration made the website a functional ecommerce site.
-            </li>
-            <li><a>Link to the project repository </a></li>
-            <li><a>Link to the live website link </a></li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <div class="thumbnail-image-wrapper">
-            <img
-              class="thumbnail-image"
-              src="images/screenshot3.png"
-              alt="an image of a webpage"
-            />
-          </div>
-          <ul class="list">
-            <li class="card-header">Semester Project</li>
-            <li>
-              The semester project I created with a classmate. Created only
-              using HTML and CSS, allowing us to perfect our existing skills.
-            </li>
-            <li><a>Link to the project repository </a></li>
-            <li><a>Link to the live website link </a></li>
-          </ul>
-        </div>
-      </section>
-    </main>
   </body>
+  <script
+    src="https://kit.fontawesome.com/5e186ae010.js"
+    crossorigin="anonymous"
+  ></script>
   <script type="module" src="app.js"></script>
 </html>
