@@ -14,6 +14,12 @@ This project made me acknowledge my progession in both design and development. I
 
 <hr> 
 
+### Tech stack 
+
+Just plain HTML and CSS
+
+<hr> 
+
 ### Known issues
 
 No known issues, let me know if you find any ☺️
