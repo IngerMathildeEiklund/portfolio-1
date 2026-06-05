@@ -40,10 +40,9 @@ main {
 .card-section {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  place-items: center;
   gap: 3rem;
   margin-top: 5rem;
+  align-items: stretch;
 }
 .sidebar-text-container {
   display: flex;
@@ -63,8 +62,8 @@ main {
   gap: 1rem;
 }
 .image-wrapper{
-    height: 100%;
-  width: auto;
+  height:  350px;
+  width: 100%;
   overflow: hidden;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
@@ -73,9 +72,8 @@ main {
 
 img {
 width: 100%;
-height: auto;
+height: 100%;
 object-fit: cover;
-display: block;
 }
 
 
@@ -83,7 +81,8 @@ display: block;
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: fit-content;
+  width: 100%;
+  height: 100%;
   gap: 1rem;
   border-radius: 0.3rem;
 }
@@ -137,7 +136,7 @@ p ,a{
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   flex-grow: 1;
 }
 .links-container {
@@ -147,6 +146,7 @@ p ,a{
   background-color: #353a7a;
   padding: 1rem;
   border-radius: 0.3rem;
+  margin-bottom: 0;
 }
 .links-container a {
   color: white;
@@ -165,13 +165,11 @@ p ,a{
   grid-template-rows: auto;
 }
 
-
 }
  @media (min-width: 1440px) {
 
 .card-section {
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
 
 }
 .main-content {
