@@ -6,11 +6,40 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="variables.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <meta property="og:title" content="My Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" src="images/ogpicture.png" />
+    <meta
+      property="og:url"
+      content="https://ingermathildeeiklund.github.io/portfolio-1/"
+    />
   </head>
   <body>
     <div class="grid-container">
-      <aside class="sidebar">
-        <img class="sidebar-image" src="images/image.jpg" />
+      <aside class="sidebar" aria-label="Contact information">
+        <img
+          class="sidebar-image"
+          src="images/image.jpg"
+          alt="Image of Inger Mathilde Eiklund"
+        />
         <div class="sidebar-text-container">
           <p class="name-text">Inger Mathilde Eiklund</p>
           <p>07.07.1997</p>
@@ -51,10 +80,13 @@
             growth in front-end development.
           </p>
         </div>
-        <section class="card-section">
+        <section class="card-section" aria-label="View three project cards">
           <div class="card">
             <div class="image-wrapper">
-              <img src="images/thumbnail-html-css.jpg" />
+              <img
+                src="images/thumbnail-html-css.jpg"
+                alt="Image of HTML and CSS project, Rainy days"
+              />
             </div>
             <div class="card-info-container">
               <p class="card-heading">HTML and CSS - Rainy Days</p>
@@ -62,23 +94,28 @@
                 This was my first coding project, where we translated our Figma
                 design into a website using HTML and CSS.
               </p>
-              <a
-                href="https://github.com/IngerMathildeEiklund/html-css-inger-mathilde-eiklund"
-                target="_blank"
-              >
-                Repository
-              </a>
-              <a
-                href="https://ingermathildeeiklund.github.io/html-css-inger-mathilde-eiklund/index.html"
-                target="_blank"
-              >
-                Live demo
-              </a>
+              <div class="links-container">
+                <a
+                  href="https://github.com/IngerMathildeEiklund/html-css-inger-mathilde-eiklund"
+                  target="_blank"
+                >
+                  Repository
+                </a>
+                <a
+                  href="https://ingermathildeeiklund.github.io/html-css-inger-mathilde-eiklund/index.html"
+                  target="_blank"
+                >
+                  Live demo
+                </a>
+              </div>
             </div>
           </div>
           <div class="card">
             <div class="image-wrapper">
-              <img src="images/thumbnail-semester-project.jpg" />
+              <img
+                src="images/thumbnail-semester-project.jpg"
+                alt="Image of Semester Project 1, Community Science Museum"
+              />
             </div>
             <div class="card-info-container">
               <p class="card-heading">
@@ -88,23 +125,28 @@
                 This was my Semester Project where I collaborated with a
                 classmate, to get the experience of working in a team.
               </p>
-              <a
-                href="https://github.com/furuknappen/semester-project-2025"
-                target="_blank"
-              >
-                Repository
-              </a>
-              <a
-                href="https://furuknappen.github.io/semester-project-2025/"
-                target="_blank"
-              >
-                Live demo
-              </a>
+              <div class="links-container">
+                <a
+                  href="https://github.com/furuknappen/semester-project-2025"
+                  target="_blank"
+                >
+                  Repository
+                </a>
+                <a
+                  href="https://furuknappen.github.io/semester-project-2025/"
+                  target="_blank"
+                >
+                  Live demo
+                </a>
+              </div>
             </div>
           </div>
           <div class="card">
             <div class="image-wrapper">
-              <img src="images/thumbnail-javascript.jpg" />
+              <img
+                src="images/thumbnail-javascript.jpg"
+                alt="Image of JavaScript 1, Rainy days"
+              />
             </div>
             <div class="card-info-container">
               <p class="card-heading">JavaScript 1 - Rainy days</p>
@@ -112,18 +154,20 @@
                 This project is a continuation of the first project using
                 JavaScript making it a dynamically rendered page.
               </p>
-              <a
-                href="https://github.com/IngerMathildeEiklund/javascript1-inger-mathilde-eiklund"
-                target="_blank"
-              >
-                Repository</a
-              >
-              <a
-                href="https://ingermathildeeiklund.github.io/javascript1-inger-mathilde-eiklund/"
-                target="_blank"
-              >
-                Live demo</a
-              >
+              <div class="links-container">
+                <a
+                  href="https://github.com/IngerMathildeEiklund/javascript1-inger-mathilde-eiklund"
+                  target="_blank"
+                >
+                  Repository</a
+                >
+                <a
+                  href="https://ingermathildeeiklund.github.io/javascript1-inger-mathilde-eiklund/"
+                  target="_blank"
+                >
+                  Live demo</a
+                >
+              </div>
             </div>
           </div>
         </section>
